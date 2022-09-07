@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Будівельна компанія новітніх технологій</title>
+</head>
+<body>
+
+<header class="container-fluid p-0">
+    <div class="d-flex flex-column">
+        <nav class="navbar navbar-expand-lg navbar-dark bg_blue">
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="image/logo.png" alt="logo">
+                <pre class="break cancel">Будівельна компанія новітніх технологій</pre>
+            </a>
+            <div class="justify-content-end telephone">
+                <p><a href="tel:+380983906419">+38(098)-390-64-19</a></p>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav mr-auto"></div>
+                <ul class="navbar-nav text-center">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Про компанію <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Види послуг</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Проекти</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Документація</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Прайс лист</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Контакти</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<section class="bg_city">
+    <div class="main-info">
+        <p>БЕЗПЕКА В КОЖНОМУ РУСІ</p>
+        <h1>Виконуємо роботи будь-якої складності</h1>
+        <pre class="break cancel">Ми пропонуємо рішення важких, комплексних та
+нестандартних проблем, які виходять за рамки
+простих функціональних стратегій</pre>
+        <button class="btn_connect">Замовити консультацію</button>
+    </div>
+</section>
+
+<section class="container-fluid about-work">
+    <div class="row">
+        <p class="work-title m-auto">Напрямок роботи</p>
+    </div>
+    <div class="container">
+
+        <div id="work-directions" class="work-directions row">
+
+            <div id="work-direction" class="work-direction col-sm-12 col-md-4 col-lg-4 col-xl-4 align-middle" onclick="openWork(event, 'first')">
+                <p class="text-center">Новобудови</p>
+            </div>
+            <div id="work-direction" class="work-direction work-direction_active col-sm-12 col-md-4 col-lg-4 col-xl-4" onclick="openWork(event, 'second')">
+                <p class="text-center">Жилі та не жилі <br>приміщення</p>
+            </div>
+            <div id="work-direction" class="work-direction col-sm-12 col-md-4 col-lg-4 col-xl-4" onclick="openWork(event, 'third')">
+                <p class="text-center">Поточний <br>та капітальний ремонти</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="first" class="description ">
+                <div class="picture col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <img width="100%" height="100%" src="./image/house.png" alt="house" >
+                </div>
+                <div class="col-sm-12 col-md-7 col-lg-7 col-xl-7">
+                    <h2 class="mb-4">Новобудови</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Accusamus amet autem beatae dolorum exercitationem explicabo
+                        numquam optio placeat quaerat, quidem rerum, sed, tenetur voluptatum!
+                        Ab cumque dolores laudantium vel voluptates.</p>
+
+                    <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicin:</p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                        <li>Aspernatur cumque explicabo fugit maiores</li>
+                        <li>tenetur voluptatum! Ab cumque dolores laudantium vel voluptates.</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="second" class="description">
+                <div class="picture col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <img width="100%" height="100%" src="./image/cova.jpg" alt="speak" >
+                </div>
+                <div class="col-sm-12 col-md-7 col-lg-7 col-xl-7">
+                    <h2 class="mb-4">Жилі та не жилі приміщення</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Accusamus amet autem beatae dolorum exercitationem explicabo
+                        numquam optio placeat quaerat, quidem rerum, sed, tenetur voluptatum!
+                        Ab cumque dolores laudantium vel voluptates.</p>
+
+                    <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicin:</p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                        <li>Aspernatur cumque explicabo fugit maiores</li>
+                        <li>tenetur voluptatum! Ab cumque dolores laudantium vel voluptates.</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="third" class="description">
+                <div class="picture col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <img width="100%" height="100%" src="./image/floor-plan.jpg" alt="planing" >
+                </div>
+                <div class="col-sm-12 col-md-7 col-lg-7 col-xl-7">
+                    <h2 class="mb-4">Поточний та капітальний ремонти</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Accusamus amet autem beatae dolorum exercitationem explicabo
+                        numquam optio placeat quaerat, quidem rerum, sed, tenetur voluptatum!
+                        Ab cumque dolores laudantium vel voluptates.</p>
+
+                    <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicin:</p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                        <li>Aspernatur cumque explicabo fugit maiores</li>
+                        <li>tenetur voluptatum! Ab cumque dolores laudantium vel voluptates.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container-fluid about-company">
+    <div class="col-3 m-auto line"></div>
+    <div class="company-title m-auto text-center">Забезпечуємо комплексний підхід до будівництва
+        та беремо на себе повний спектр завдань: від розробки концепції та до здачі об'єкта
+        точно в строк</div>
+    <div class="col-3 my-margin line"></div>
+    <div class="row">
+        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 line-r text-center">
+            <h3 class="title-about">Швидко</h3>
+            <p class="text-justify p-4">Ми цінуємо Ваш час. Робимо один раз і надовго...</p>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 line-r text-center">
+            <h3 class="title-about">Безпека та якість</h3>
+            <p class="text-justify p-4">Ретельне і продумане проектування, екологічно чисті сертифікованні будівельні
+                матеріали, перевірені інжинірингові системи, відповідність відчизняним і міжнародним стандартам.</p>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center">
+            <h3 class="title-about">Помірна ціна</h3>
+            <p class="text-justify p-4">Доступні ціни та гнучкі умови співпраці. Створення смєти
+                відповідно до вашого бюджету</p>
+        </div>
+    </div>
+</section>
+
+<section class="container-fluid about-work">
+    <div class="p-4">
+        <p class="need-call text-center">Потрібна консультація? Зателефонуйте нам.</p>
+        <p class="need-call-2 text-center">Або напишіть свій номер телефону, ми зателефонуємо Вам для безкоштовної консультації.</p>
+    </div>
+
+    <form action="#" method="post">
+        <div class="row">
+            <div class="m-auto">
+                <div class="wrap-input">
+                    <input id="name" class="input" name="name" type="text" placeholder="Ім'я" required>
+                </div>
+                <div class="wrap-input">
+                    <input id="phone" class="input" name="phone" type="tel" placeholder="Номер телефону" required>
+                </div>
+                <div class="wrap-input">
+                    <button type="submit" class="btn_connect input">Замовити консультацію</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</section>
+
+<footer>
+    <div class="container-fluid footer">
+        <div class="col-11 my-margin2 line2"></div>
+        <div class="row ">
+            <!--    <div class="col-1"></div>-->
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <a class="navbar-brand" href="#">
+                    <img class="logo logo-foot" src="image/logo.png" alt="logo">
+                    <pre class="break cancel pre-foot">Будівельна компанія новітніх технологій</pre>
+                </a>
+            </div>
+            <div class="d-flex flex-column col-sm-12 col-md-4 col-lg-4 col-xl-4 my-mr pl-5">
+                <h5>Ми працюємо</h5>
+                <p>ПН - СБ: 8:00 - 17:00</p>
+                <p>НД: Вихідний</p>
+            </div>
+            <div class="d-flex flex-column col-sm-12 col-md-4 col-lg-4 col-xl-4 my-mr">
+                <h5>Контакти</h5>
+                <p>Адреса: м. Жмеринка, вул. Київська 16</p>
+                <p><a href="tel:+380983906419">+38(098)-390-64-19</a></p>
+                <p><a href="mailto:triumph-sp@ukr.net">triumph-sp@ukr.net</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid company-name">
+        <p class="text-center">&copy; 2020 ТОВ «ТРІУМФ - СП»</p>
+    </div>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script>
+    function openWork(evt, workNum) {
+        let i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("description");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("work-direction");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" work-direction_active", "");
+        }
+        document.getElementById(workNum).style.display = "flex";
+        evt.currentTarget.className += " work-direction_active";
+    }
+
+    // setInterval(openWork, 1000, "evt", "workNum");
+</script>
+
+</body>
+</html>
